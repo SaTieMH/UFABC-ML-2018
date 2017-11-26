@@ -10,7 +10,7 @@ typedef unsigned long int ulint;
 int msb (int x){
     int cont=0;
     while (x){
-        x >> 1;
+        x = x >> 1;
         cont ++;
     }
     return cont;
